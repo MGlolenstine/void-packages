@@ -1,6 +1,6 @@
 # Template file for 'kiconthemes'
 pkgname=kiconthemes
-version=5.75.0
+version=5.78.0
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF"
@@ -12,7 +12,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.0-only, GPL-2.0-or-later"
 homepage="https://invent.kde.org/frameworks/kiconthemes"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname}-${version}.tar.xz"
-checksum=250b551ecfc5381c36267c51fdc86948ed85b1f477b12bd15a57d2d4e44a88db
+checksum=fb887e4d93cdd240545c8c16431cafafe3ec3c696589540d79a0e28b92084d6b
 
 kiconthemes-devel_package() {
 	short_desc+=" - development"
